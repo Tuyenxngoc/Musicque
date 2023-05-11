@@ -55,6 +55,18 @@ const app = {
             image: "./assets/img/NotAFairyTale.webp"
         },
         {
+            name: "Nơi Ta Chờ Em (Em Chưa 18 OST)",
+            singer: "Will",
+            path: "./assets/mp3/Noi-Ta-Cho-Em-Em-Chua-18-OST-Will.mp3",
+            image: "./assets/img/noitachoem.webp"
+        },
+        {
+            name: "Yêu Thương Ngày Đó (Yêu Em Bất Chấp OST)",
+            singer: "SOOBIN",
+            path: "./assets/mp3/Yeu-Thuong-Ngay-Do-Yeu-Em-Bat-Chap-OST-SOOBIN.mp3",
+            image: "./assets/img/yeuthuongngaydo.webp"
+        },
+        {
             name: "Bật Tình Yêu Lên",
             singer: "Hòa Minzy ft. Tăng Duy Tân",
             path: "./assets/mp3/Bật Tình Yêu Lên - Hòa Minzy ft. Tăng Duy Tân「Cukak Remix」- Audio Lyrics Video.mp3",
@@ -68,12 +80,6 @@ const app = {
         },
         {
             name: "Dối Lừa",
-            singer: "Nguyễn Đình Vũ",
-            path: "./assets/mp3/Dối Lừa (Qinn Remix) Nguyễn Đình Vũ - Anh Đưa Tay Ra Để Cố Vuốt Ve Khuôn Mặt Em Thật Xinh Đẹp Remix.mp3",
-            image: "./assets/img/doilua.webp"
-        },
-        {
-            name: "Dối Lừa2",
             singer: "Nguyễn Đình Vũ",
             path: "./assets/mp3/Dối Lừa (Qinn Remix) Nguyễn Đình Vũ - Anh Đưa Tay Ra Để Cố Vuốt Ve Khuôn Mặt Em Thật Xinh Đẹp Remix.mp3",
             image: "./assets/img/doilua.webp"
@@ -168,7 +174,7 @@ const app = {
                 minutes = Math.floor(duration / 60);
                 seconds = Math.floor(duration % 60);
                 progress_time_duration.textContent = minutes.toLocaleString('en-US', { minimumIntegerDigits: 2, useGrouping: false }) + ":" + seconds.toLocaleString('en-US', { minimumIntegerDigits: 2, useGrouping: false });
-                
+
                 const percent = Math.floor((currentTime / duration) * 100);
                 progress.value = percent;
                 // chuyen bai
