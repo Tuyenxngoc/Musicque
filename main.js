@@ -67,6 +67,12 @@ const app = {
             image: "./assets/img/yeuthuongngaydo.webp"
         },
         {
+            name: "Yêu Em Rất Nhiều",
+            singer: "Hoàng Tôn",
+            path: "./assets/mp3/Yeu-Em-Rat-Nhieu-Hoang-Ton.mp3",
+            image: "./assets/img/yeuemratnhiu.webp"
+        },
+        {
             name: "Bật Tình Yêu Lên",
             singer: "Hòa Minzy ft. Tăng Duy Tân",
             path: "./assets/mp3/Bật Tình Yêu Lên - Hòa Minzy ft. Tăng Duy Tân「Cukak Remix」- Audio Lyrics Video.mp3",
