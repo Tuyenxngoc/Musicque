@@ -200,12 +200,13 @@ const app = {
                     }
                 }
             }
-            //tua
-            progress.onchange = function (e) {
-                const percent = e.target.value;
-                const seekTime = Math.floor((duration / 100) * percent);
-                audio.currentTime = seekTime;
-            }
+        }
+        //tua
+        progress.onchange = function (e) {
+            const duration = audio.duration;
+            const percent = e.target.value;
+            const seekTime = Math.floor((duration / 100) * percent);
+            audio.currentTime = seekTime;
         }
         // khi next bai
         btnNext.onclick = function () {
