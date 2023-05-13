@@ -89,6 +89,24 @@ const app = {
             singer: "Nguyễn Đình Vũ",
             path: "./assets/mp3/Dối Lừa (Qinn Remix) Nguyễn Đình Vũ - Anh Đưa Tay Ra Để Cố Vuốt Ve Khuôn Mặt Em Thật Xinh Đẹp Remix.mp3",
             image: "./assets/img/doilua.webp"
+        },
+        {
+            name: "[SERIES: Một Chút] 2017 thứ nhất.",
+            singer: "cobeluoi",
+            path: "./assets/mp3/[SERIES- Một Chút] 2017 thứ nhất..mp3",
+            image: "./assets/img/list2.png"
+        },
+        {
+            name: "Playlist này sẽ đưa bạn trở về 2019",
+            singer: "p_ht.n",
+            path: "./assets/mp3/Playlist này sẽ đưa bạn trở về 2019 - [ Playlist 2019 (1) ].mp3",
+            image: "./assets/img/list1.png"
+        },
+        {
+            name: "Giọng Ca Này Sẽ Làm Bạn Cảm Thấy Yêu Đời Hơn Mỗi Ngày",
+            singer: "Saigon Chill Music",
+            path: "./assets/mp3/y2meta.com - [1 Hour] Giọng Ca Này Sẽ Làm Bạn Cảm Thấy Yêu Đời Hơn Mỗi Ngày _ Mai Bích Trân (Cover) (128 kbps).mp3",
+            image: "./assets/img/list3.png"
         }
     ],
     render: function () {
