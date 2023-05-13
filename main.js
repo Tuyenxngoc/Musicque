@@ -83,6 +83,12 @@ const app = {
             singer: "VAnh, BMZ",
             path: "./assets/mp3/Nhat-Tren-Doi-Speed-Up-Version-VAnh-BMZ.mp3",
             image: "./assets/img/NhatTrenĐoi.webp"
+        },
+        {
+            name: "Dối lừa",
+            singer: "Nguyễn Đình Vũ",
+            path: "./assets/mp3/Dối Lừa (Qinn Remix) Nguyễn Đình Vũ - Anh Đưa Tay Ra Để Cố Vuốt Ve Khuôn Mặt Em Thật Xinh Đẹp Remix.mp3",
+            image: "./assets/img/doilua.webp"
         }
     ],
     render: function () {
