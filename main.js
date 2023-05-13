@@ -197,6 +197,12 @@ const app = {
                             player.classList.add('playing');
                             cdThumbSAnimate.play();
                         }
+                    } else {
+                        audio.currentTime = 0;
+                        progress.value = 0;
+                        player.classList.remove('playing');
+                        app.isPlaying = false;
+                        cdThumbSAnimate.pause();
                     }
                 }
             }
