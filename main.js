@@ -107,6 +107,12 @@ const app = {
             singer: "Saigon Chill Music",
             path: "./assets/mp3/y2meta.com - [1 Hour] Giọng Ca Này Sẽ Làm Bạn Cảm Thấy Yêu Đời Hơn Mỗi Ngày _ Mai Bích Trân (Cover) (128 kbps).mp3",
             image: "./assets/img/list3.png"
+        },
+        {
+            name: "girl like me don't cry",
+            singer: "thuy, MIN",
+            path: "./assets/mp3/thuy - girls like me don't cry (remix) ft. MIN.mp3",
+            image: "./assets/img/thuy.webp"
         }
     ],
     render: function () {
@@ -154,14 +160,18 @@ const app = {
         // an bai hat:
         const listSong = $$('.song');
         listSong.forEach((element, index) => {
-            element.onclick = function () {
-                app.currentIndex = index;
-                app.loadCurrentSong();
-                audio.play();
-                if (!app.isPlaying) {
-                    app.isPlaying = true;
-                    player.classList.add('playing');
-                    cdThumbSAnimate.play();
+            element.onclick = function (e) {
+                if (e.target.closest('.option')) {
+                    // xoa bai hat
+                } else {
+                    app.currentIndex = index;
+                    app.loadCurrentSong();
+                    audio.play();
+                    if (!app.isPlaying) {
+                        app.isPlaying = true;
+                        player.classList.add('playing');
+                        cdThumbSAnimate.play();
+                    }
                 }
             }
         });

@@ -120,7 +120,7 @@ header h2 {
     border-radius: 6px;
 }
 
-.progress_time{
+.progress_time {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -164,6 +164,11 @@ header h2 {
 .song.active .author,
 .song.active .title {
     color: #fff;
+}
+
+.option:hover {
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 .song .thumb {
